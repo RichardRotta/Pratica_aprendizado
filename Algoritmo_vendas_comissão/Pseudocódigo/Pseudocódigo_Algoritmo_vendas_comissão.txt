@@ -1,0 +1,32 @@
+	     	  Pseudocódigo
+
+Algoritmo Vendas_Comissão;
+Var
+V, S, Sf, C: Real;
+nome: Caractere;
+
+Begin;
+	Write: ("Digite o seu nome");
+	Read: (nome);
+	Write: ("Seja Bem Vindo, Sr(a) (nome)");
+	Write: ("Digite suas vendas desse mês");
+	Read: (V);
+	S <- 1750;
+	If (V <= 6999.99) So
+		Sf <- (V * 0.05) + S;
+		C <- V * 0.05;
+	Else 
+	If (V <= 9999.99) So
+		Sf <- (V * 0.07) + S;
+		C <- V * 0.07;
+	Else
+	If (V >= 10000) So
+		Sf <- (V * 0.1) + S;
+		C <- V * 0.1;
+	End_if;
+	End_if;
+	End_if;
+	Write: ("Sua comissão esse mês, foi de: (C)");
+	Write: ("Seu salário final é: (Sf)");
+	Write: ("Tenha um ótimo dia, Sr(a) (nome)");
+End;

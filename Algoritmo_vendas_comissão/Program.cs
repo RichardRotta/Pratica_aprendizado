@@ -8,11 +8,12 @@ namespace Vendas_Comissão
         static void Main(string[] args)
         {
             double V = 0, S = 0, Sf = 0, C = 0; // V = Vendas, S = Salário, Sf = Salário + Comissão, C = Comissão;
+            string nome;
 
             Console.WriteLine("Digite o seu nome:"); // Entrada Nome
-            var Nome = (Console.ReadLine());
+            nome = (Console.ReadLine());
 
-            Console.WriteLine("Seja Bem Vindo, Sr(a) {0}!", Nome); // Saída Nome + Recepção
+            Console.WriteLine("Seja Bem Vindo, Sr(a) {0}!", nome); // Saída Nome + Recepção
             Console.ReadKey();
 
             Console.WriteLine("Digite suas vendas desse mês:"); // Entrada vendas
@@ -31,19 +32,21 @@ namespace Vendas_Comissão
                     Sf = (V * 0.07) + S;
                     C = (V * 0.07);
                 }
-                if (V >= 10000) //Condição
+                else
                 {
-                    Sf = (V * 0.1) + S;
-                    C = (V * 0.1);
+                    if (V >= 10000) //Condição
+                    {
+                        Sf = (V * 0.1) + S;
+                        C = (V * 0.1);
+                    }
                 }
-
             }
 
-            Console.WriteLine("Sua comissão esse mês, foi de: {0}", C);
+            Console.WriteLine("Sua comissão esse mês, foi de: {0}", C); //Saída comissão
             Console.WriteLine("Seu salário final é: {0}", Sf); // Saída salário final
             Console.ReadKey();
 
-            Console.WriteLine("Tenha um ótimo dia, Sr(a) {0}!", Nome); // Agradecimento final
+            Console.WriteLine("Tenha um ótimo dia, Sr(a) {0}!", nome); // Agradecimento final
             Console.ReadKey();
         }
     }
