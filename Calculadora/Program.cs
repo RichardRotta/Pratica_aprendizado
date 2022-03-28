@@ -27,6 +27,11 @@ namespace Calculadora
             Console.WriteLine("Digite o segundo número:"); //Entrada número 2
             n2 = double.Parse(Console.ReadLine());
 
+            a = n1 + n2; //Processamento adição
+            s = n1 - n2; //Processamento subtração
+            m = n1 * n2; //Processamento multiplicação
+            d = n1 / n2; //Processamento divisão
+
             Console.WriteLine("Digite o operador desejado, sendo:");
             Console.WriteLine("\tm = Multiplicação");
             Console.WriteLine("\td = Divisão");
@@ -34,11 +39,6 @@ namespace Calculadora
             Console.WriteLine("\ts = Subtração");
             Console.WriteLine();
             Console.WriteLine("Digite sua escolha:"); //Entrada operador
-
-            a = n1 + n2; //Processamento adição
-            s = n1 - n2; //Processamento subtração
-            m = n1 * n2; //Processamento multiplicação
-            d = n1 / n2; //Processamento divisão
 
             switch (Console.ReadLine())
             {

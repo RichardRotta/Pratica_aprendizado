@@ -1,0 +1,30 @@
+		Pseudocode
+Algoritmo Calculadora;
+Var
+n1, n2, a, s, m, d: Real;
+
+Begin;
+	Write:("Digite o primeiro número:");
+	Read:(n1);
+	Write:("Digite o segundo número:");
+	Read:(n2);
+	a <- n1 + n2;
+	s <- n1 - n2;
+	m <- n1 * n2;
+	d <- n1 / n2;
+	If "a" so
+		Write: ("Seu resultado é: (n1) + (n2) = (a)");
+	Else
+	If "s" so
+		Write: ("Seu resultado é: (n1) - (n2) = (s)");
+	Else
+	If "m" so
+		Write: ("Seu resultado é: (n1) * (n2) = (m)");
+	Else
+	If "d" so
+		Write: ("Seu resultado é: (n1) / (n2) = (d)");
+	End_if;
+	End_if;
+	End_if;
+	End_if;
+End.
