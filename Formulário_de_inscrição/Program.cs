@@ -63,11 +63,11 @@ namespace Formulário_de_inscrição
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("O formulário está correto?");
-            Console.WriteLine("Digite s para enviar, ou, n para corrigir"); //Entrada s e n
+            Console.WriteLine("Digite s para enviar, ou, n para corrigir");
 
             switch (Console.ReadLine()) //condição
             {
-                case "s":
+                case "s": 
                     Console.WriteLine();
                     Console.WriteLine("Formulário enviado, boa sorte!"); //Saída mensagem
                     Console.WriteLine();

@@ -1,0 +1,52 @@
+		Pseudocode
+Algoritmo Formulario_de_inscricao;
+Var
+nome, email, emprego_dese: Caractere;
+cpf, rg, tel, cel, dia_nasc, mes_nasc, ano_nasc: Decimal;
+
+Begin;
+	Write:("Dados Pessoais");
+	Write:("---------------");
+
+	Write:("Nome Completo: ");
+	Read:(nome);
+	Write:("RG: ");
+	Read:(rg);
+	Write:("CPF: ");
+	Read:(cpf);
+	Write:("Dia de Nascimento: ");
+	Read:(dia_nasc);
+	Write:("Mês de Nascimento: ");
+	Read:(mes_nasc);
+	Write:("Ano de Nascimento: ");
+	Read:(ano_nasc);
+	Write:("Telefone: ");
+	Read:(tel);
+	Write:("Celular: ");
+	Read:(cel);
+	Write:("Email: ");
+	Read:(email);
+	Write:("Emprego Desejado: ");
+	Read:(emprego_dese);
+
+	Write:("Revisão do Formulário");
+	Write:("----------------------");
+
+	Write:("Nome: (nome)");
+	Write:("RG: (rg)");
+	Write:("CPF: (cpf)");
+	Write:("Data de Nascimento: (dia_nasc)/(mes_nasc)/(ano_nasc)");
+	Write:("Telefone: (tel)");
+	Write:("Celular: (cel)");
+	Write:("Email: (email)");
+	Write:("Emprego Desejado: (emprego_dese)");
+	Write:("O formulário está correto?");
+	Write:("Digite s para enviar, ou, n para corrigir");
+	If "s" so
+		Write:("Formulário enviado, boa sorte!");
+	Else
+	If "n" so
+		Write:("Lamentamos pelo transtorno, peço que recarregue a página e refaça o formulário");
+	End_if
+	End_if
+End.
