@@ -15,6 +15,7 @@ namespace Vendas_Comissão
 
             Console.WriteLine("Seja Bem Vindo, Sr(a) {0}!", nome); // Saída Nome + Recepção
             Console.ReadKey();
+            Console.WriteLine();
 
             Console.WriteLine("Digite suas vendas desse mês:"); // Entrada vendas
             V = double.Parse(Console.ReadLine());
@@ -42,9 +43,11 @@ namespace Vendas_Comissão
                 }
             }
 
+            Console.WriteLine();
             Console.WriteLine("Sua comissão esse mês, foi de: {0}", C); //Saída comissão
             Console.WriteLine("Seu salário final é: {0}", Sf); // Saída salário final
             Console.ReadKey();
+            Console.WriteLine();
 
             Console.WriteLine("Tenha um ótimo dia, Sr(a) {0}!", nome); // Agradecimento final
             Console.ReadKey();
