@@ -59,7 +59,7 @@ namespace Calculo_de_investimento
 
                         juros_final = valor_ini * (juros / 100) * temp_invest; //processamento
 
-                        Console.Write("\nRentabilidade: ");
+                        Console.Write("\nSua rentabilidade: ");
                         Console.Write(juros_final.ToString("C")); //saída
 
                         break;
