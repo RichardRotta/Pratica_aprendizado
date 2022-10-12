@@ -175,7 +175,8 @@ namespace Criador_de_metas
             }
 
             Console.ReadKey();
-            System.Diagnostics.Process.Start("notepad.exe", texto); 
+            System.Diagnostics.Process.Start("notepad.exe", texto);
+
         }
     }
 }

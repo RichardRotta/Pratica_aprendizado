@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculo_de_investimento", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Criador_de_metas", "Criador_de_metas\Criador_de_metas.csproj", "{0285AA60-4963-4DEA-8852-60EE3E2C25AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formulario_XPI", "Formulario_XPI\Formulario_XPI.csproj", "{9861D6D5-9D2F-494B-882D-47F64F90AE6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{0285AA60-4963-4DEA-8852-60EE3E2C25AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0285AA60-4963-4DEA-8852-60EE3E2C25AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0285AA60-4963-4DEA-8852-60EE3E2C25AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9861D6D5-9D2F-494B-882D-47F64F90AE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9861D6D5-9D2F-494B-882D-47F64F90AE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9861D6D5-9D2F-494B-882D-47F64F90AE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9861D6D5-9D2F-494B-882D-47F64F90AE6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
