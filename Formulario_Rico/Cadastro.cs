@@ -111,7 +111,6 @@ namespace Formulario_Rico
                                                     // Salvamento de dados no método set
                                                     dds.setNome(txtNome.Text);
                                                     dds.setEmail(txtEmail.Text);
-                                                    dds.setConfirmEmail(txtConfirmEmail.Text);
                                                     dds.setCpf(txtCpf.Text);
                                                     dds.setDataNasc(dtpDataNasc.Value);
                                                     dds.setCelular(txtCelular.Text);
@@ -155,7 +154,6 @@ namespace Formulario_Rico
                                                         // Salvamento de dados no método set
                                                         dds.setNome(txtNome.Text);
                                                         dds.setEmail(txtEmail.Text);
-                                                        dds.setConfirmEmail(txtConfirmEmail.Text);
                                                         dds.setCpf(txtCpf.Text);
                                                         dds.setDataNasc(dtpDataNasc.Value);
                                                         dds.setCelular(txtCelular.Text);
@@ -197,7 +195,6 @@ namespace Formulario_Rico
                                                         // Salvamento de dados no método set
                                                         dds.setNome(txtNome.Text);
                                                         dds.setEmail(txtEmail.Text);
-                                                        dds.setConfirmEmail(txtConfirmEmail.Text);
                                                         dds.setCpf(txtCpf.Text);
                                                         dds.setDataNasc(dtpDataNasc.Value);
                                                         dds.setCelular(txtCelular.Text);

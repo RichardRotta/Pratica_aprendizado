@@ -4,7 +4,6 @@ public class Dados
     // Atributos
     private String nome;
     private String email;
-    private String confirm_email;
     private String cpf;
     private DateTime dataNasc;
     private String celular;
@@ -16,9 +15,6 @@ public class Dados
 
     public String getEmail() { return this.email; }
     public void setEmail(String p_email) { this.email = p_email; }
-
-    public String getConfirmEmail() { return this.confirm_email; }
-    public void setConfirmEmail(String p_confirm_email) { this.confirm_email = p_confirm_email; }
 
     public String getCpf() { return this.cpf; }
     public void setCpf(String p_cpf) { this.cpf = p_cpf; }

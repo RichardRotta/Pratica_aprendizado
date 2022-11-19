@@ -66,6 +66,7 @@ namespace Formulario_Rico
 
         private void btAtuaizar_Click(object sender, EventArgs e)
         {
+            txtCpfConsulta.Clear();
             dgvConsultaDados.Rows.Clear();
             MySqlConnection conexao = new MySqlConnection("server=localhost; User Id=root; database=cadastro_rico; password=''"); // Conexão com o DB
             MySqlCommand sqlQuery = new MySqlCommand("SELECT * FROM cadastro", conexao); // Comando SQL
@@ -131,6 +132,7 @@ namespace Formulario_Rico
                 finally
                 {
                     conexao.Close(); // Fechar conexão
+                    txtCpfConsulta.Clear(); //Apagando o texto dentro do txtCpfConsulta
                 }
             }
         }
